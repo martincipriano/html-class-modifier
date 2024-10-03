@@ -21,5 +21,13 @@ These modifications include:
 
 ```
 <div id="target-element" class="show">Target Element</div>
-<button data-toggle-from="#target-element" data-toggle-class="show hide" type="button">Toggle Target Element</button>
+<button data-toggle-from="#target-element" data-toggle-class="show, hide" type="button">Toggle Target Element</button>
+```
+
+### Toggling multiple classes from multiple elements
+
+```
+<div id="target-element" class="show">Target Element</div>
+<div id="target-element-2" class="show">Target Element 2</div>
+<button data-toggle-from="#target-element, #target-element-2" data-toggle-class="[show-1, hide-1], [show-2, hide-2]" type="button">Toggle Target Element</button>
 ```
