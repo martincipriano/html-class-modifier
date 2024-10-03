@@ -1,0 +1,25 @@
+{
+  "name": "html-class-modifier",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "",
+  "repository": {
+    "url": "git+https://github.com/martincipriano/html-class-modifier.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "html class modifier",
+    "html class toggler"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  }
+}
