@@ -1,4 +1,4 @@
-export default class HTML_Class_Modifier {
+export class HTML_Class_Modifier {
   constructor() {
     this.setPointerEvents();
     this.eventListeners();
