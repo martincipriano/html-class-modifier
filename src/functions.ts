@@ -18,6 +18,13 @@ class HTML_Class_Modifier {
     }
   }
 
+  modifyElements = function(selectors, classes, action) {
+    if (!selectors || !classes) {
+      alert('data-toggle-from and data-toggle-class attributes are required and should not be empty. \n\n For more details, check the documentation at https://www.google.com')
+      return
+    }
+  }
+
   setPointerEvents = function()
   {
     let style = document.createElement('style')
