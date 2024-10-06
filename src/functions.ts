@@ -9,6 +9,15 @@ class HTML_Class_Modifier {
     this.setPointerEvents()
   }
 
+  modifiers = {
+    "toggleFrom": function(element) {
+    },
+    "removeFrom": function(element) {
+    },
+    "addTo": function(element) {
+    }
+  }
+
   setPointerEvents = function()
   {
     let style = document.createElement('style')
