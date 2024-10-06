@@ -7,6 +7,7 @@
 class HTML_Class_Modifier {
   constructor() {
     this.setPointerEvents()
+    this.eventListeners()
   }
 
   modifiers = {
