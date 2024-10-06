@@ -1,2 +1,3 @@
-export * from './functions'
-export * from './types'
+import { HTML_Class_Modifier } from './functions';
+
+export { HTML_Class_Modifier };
