@@ -11,10 +11,13 @@ class HTML_Class_Modifier {
 
   modifiers = {
     "toggleFrom": function(element) {
+      this.modifyElements(element.dataset.toggleFrom, element.dataset.toggleClass, 'toggle')
     },
     "removeFrom": function(element) {
+      this.modifyElements(element.dataset.removeFrom, element.dataset.removeClass, 'remove')
     },
     "addTo": function(element) {
+      this.modifyElements(element.dataset.addTo, element.dataset.addClass, 'add')
     }
   }
 
@@ -26,7 +29,8 @@ class HTML_Class_Modifier {
     return result
   }
 
-  modifyElements = function(selectors, classes, action) {
+  modifyElements = function(selectors, classes, action)
+  {
     if (!selectors || !classes) {
       alert('Please check the required attributes and make sure they are not empty. \n\n For more details, check the documentation at https://github.com/martincipriano/html-class-modifier')
       return
