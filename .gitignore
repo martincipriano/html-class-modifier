@@ -1,4 +1,7 @@
-/dist
+/dist/html-class-modifier.d.mts
+/dist/html-class-modifier.d.ts
+/dist/html-class-modifier.js
+html-class-modifier.mjs
 /node_modules
 
 .env
